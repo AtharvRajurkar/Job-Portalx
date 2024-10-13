@@ -1,0 +1,13 @@
+.input {
+  border: none;
+}
+.TextInput {
+  border: solid;
+  border-radius: 25px;
+  align-items: center;
+}
+.Navbar {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
