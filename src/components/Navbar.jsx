@@ -4,20 +4,23 @@ import Navbar_component from "./Navbar_component";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <Navbar_component thing={"Jobs"} />
-      <Navbar_component thing={"Companies"} />
-      <Navbar_component thing={"Services"} />
-      <div className="TextInput" style={{ display: "flex", padding: "5px" }}>
-        <form>
-          <input type="text" placeholder="Search jobs here" className="input" />
-        </form>
-        <button>
-          {/* <img src="search-outline.png" alt="searchIcon" /> */}
-          <ion-icon name="search-outline"></ion-icon>
+      <div style={{ display: "flex", gap: "40px" }}>
+        <Navbar_component thing={"Jobs"} />
+        <Navbar_component thing={"Companies"} />
+        <Navbar_component thing={"Services"} />
+      </div>
+
+      <div className="TextInput">
+        <input type="text" placeholder="Search jobs here" className="input" />
+
+        <button className="search-button">
+          <img className="search-icon" src="Group 1.svg" alt="searchIcon" />
         </button>
       </div>
-      <button>Login</button>
-      <button>Register</button>
+      <div style={{ display: "flex", gap: "10px" }}>
+        <button className="roundedButton">Login</button>
+        <button className="roundedButton">Register</button>
+      </div>
     </div>
   );
 };
