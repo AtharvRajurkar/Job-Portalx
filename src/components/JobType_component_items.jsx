@@ -1,19 +1,6 @@
 import React from "react";
 import { useState } from "react";
 const JobType_component_items = ({ Jobtype, handleJobTypeChange }) => {
-  // const [jobtype, setJobType] = useState("");
-  // const handleChange = (event) =>{
-  //   if(event.target.checked){
-  //     setJobType(Jobtype);
-  //     handleJobTypeChange(Jobtype, true);
-  //   }
-
-  //   else{
-  //     setJobType("");
-  //     handleJobTypeChange(Jobtype, false);
-  //   }
-
-  // }
   const [isChecked, setIsChecked] = useState(false);
 
   const handleChange = (event) => {

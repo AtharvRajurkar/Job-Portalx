@@ -17,32 +17,14 @@ import "./App.css";
 import "./images/searchIcon.svg";
 import { jobList } from "./jobData";
 const App = () => {
-  // const[data, setdata] = useState(null);
-  // const[error, seterror] = useEffect(null);
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch(https://api.coresignal.com/cdapi/v1/professional_network/job/collect/{job_id}
-  //       );
-  //       if(!response.ok) throw new Error('Network response was not ok');
-  //       const result = await response.json();
-  //       setdata(data);
-  //     }
-  //     catch(error){
-  //      seterror(error.message);
-  //     }
+ 
+  // const fetchData = async () => {
+  //   console.log(jobList);
+  // };
 
-  //   };
+  // useEffect(() => {
   //   fetchData();
   // }, []);
-
-  const fetchData = async () => {
-    console.log(jobList);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
 
   return (
     <BrowserRouter>

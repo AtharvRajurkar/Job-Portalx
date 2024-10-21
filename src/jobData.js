@@ -119,7 +119,7 @@ export const jobList = [
     employer_company_type: null,
     employer_linkedin: null,
     job_publisher: "Indeed",
-    job_employment_type: "PARTIME",
+    job_employment_type: "PARTTIME",
     job_title: "Junior Developer",
     job_apply_link:
       "https://www.indeed.com/viewjob?jk=931459cd0ae5ae41&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
@@ -315,7 +315,7 @@ export const jobList = [
     employer_company_type: null,
     employer_linkedin: null,
     job_publisher: "SkillStorm",
-    job_employment_type: "FULLTIME",
+    job_employment_type: "PARTTIME",
     job_title: "Entry Level Software Developer",
     job_apply_link:
       "https://careers.skillstorm.com/jobs/entry-level-software-developer-41710?keywords&location&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
@@ -555,7 +555,7 @@ export const jobList = [
     employer_company_type: "Consulting",
     employer_linkedin: null,
     job_publisher: "LMI - ICIMS",
-    job_employment_type: "FULLTIME",
+    job_employment_type: "PARTTIME",
     job_title: "Full-Stack Software Developer - Clearance Desired",
     job_apply_link:
       "https://careers-lmi.icims.com/jobs/11767/full-stack-software-developer---clearance-desired/job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",

@@ -9,7 +9,7 @@ const Filtercomponent = ({
 }) => {
   return (
     <div className="Filter_component">
-      <div style={{ fontWeight: "bold" , fontSize: "1.1rem" }}>All Filters</div>
+      <div style={{ fontWeight: "bold", fontSize: "1.1rem" }}>All Filters</div>
       <hr />
       <Location_component handleSelectedLocations={handleSelectedLocations} />
       <hr />

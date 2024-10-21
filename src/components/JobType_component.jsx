@@ -1,5 +1,6 @@
 import React from "react";
 import JobType_component_items from "./JobType_component_items";
+
 const JobType_component = ({ handleSelectedJobTypes }) => {
   const handleJobTypeChange = (Jobtype, isSelected) => {
     handleSelectedJobTypes(Jobtype, isSelected); // Notify parent of the job type selection
@@ -18,10 +19,6 @@ const JobType_component = ({ handleSelectedJobTypes }) => {
       />
       <JobType_component_items
         Jobtype="PARTTIME"
-        handleJobTypeChange={handleJobTypeChange}
-      />
-      <JobType_component_items
-        Jobtype="Work From Home"
         handleJobTypeChange={handleJobTypeChange}
       />
     </div>

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const trial = () => {
-  return (
-    <div>trial</div>
-  )
-}
+  return <div>trial</div>;
+};
 
-export default trial
+export default trial;

@@ -61,10 +61,12 @@ const Detailed_component = () => {
                   {employer_name}
                 </div>
                 <div>
-                  <span>
-                    {/* <img src="../briefcase-business.png" alt=""/> */}
-                    {required_experience_in_months}
-                  </span>
+                  {required_experience_in_months != null ? (
+                    <span>{required_experience_in_months}</span>
+                  ) : (
+                    <span>None</span>
+                  )}
+                  {/* <span>{required_experience_in_months}</span> */}
                   <span class="vertical-bar-text">
                     {" "}
                     &nbsp;&nbsp;|&nbsp; &nbsp;

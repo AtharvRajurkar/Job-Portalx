@@ -70,28 +70,20 @@ const Home_component = () => {
       <br />
       <br />
       <div className="hero">
-        <div style={{ width: "250px" }}>
+        <div style={{ width: "250px", overflowY: "auto", height: "100vh" }}>
           <Filtercomponent
             handleSelectedLocations={handleSelectedLocations}
             handleSelectedJobTypes={handleSelectedJobTypes}
             handleSelectedCompanies={handleSelectedCompanies}
           />
         </div>
-        {/* <div
-          className="JobDisplaySection"
-          //  style={{ flexGrow: "2", display: "flex", flexWrap: "wrap" }}
-          style={{flexGrow: "2"}}
-        > */}
-        {/* {filteredJobs.map((job) => (
-            <Job_component job={job} />
-          ))} */}
         <div>
           <Pagination_component
             filteredJobs={filteredJobs}
             number={currentPage}
           />
           <br />
-          <div style={{ display: "flex", justifyContent: "space-evenly"}}>
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
             <button
               style={{ padding: "15px", width: "100px" }}
               className="roundedButton"

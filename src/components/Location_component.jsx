@@ -6,7 +6,7 @@ const Location_component = ({ handleSelectedLocations }) => {
   const handleLocationChange = (city, isSelected) => {
     handleSelectedLocations(city, isSelected); // Pass up the location state
   };
-  const uniqueCities = [...new Set(jobList.map((job) => job.job_city))];
+  // const uniqueCities = [...new Set(jobList.map((job) => job.job_city))];
   return (
     <div>
       <div style={{ fontWeight: "bold" }}>Location</div>

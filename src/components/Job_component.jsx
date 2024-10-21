@@ -29,10 +29,11 @@ const Job_component = ({ job }) => {
           {employer_name}
         </div>
         <div>
-          <span>
-            {/* <img src="../briefcase-business.png" alt=""/> */}
-            {required_experience_in_months}
-          </span>
+          {required_experience_in_months != null ? (
+            <span>{required_experience_in_months}</span>
+          ) : (
+            <span>None</span>
+          )}
           <span class="vertical-bar-text"> &nbsp;&nbsp;|&nbsp; &nbsp;</span>
 
           <span>{job_min_salary + "-" + job_max_salary}</span>
